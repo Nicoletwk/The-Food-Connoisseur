@@ -1,21 +1,42 @@
+/*******TAG SELECTORS*****/
 body {
-background-color: #FBF8F1
+  background-color: #FBF8F1;
+  font-family: sans-serif;
+  color: #CDB699;
 }
 
-hr{
-border-style: none;
-border-top-style: dotted;
-border-color: #EEEEEE;
-border-width: 5px;
-width: 10%;
-
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EEEEEE;
+  border-width: 5px;
+  width: 10%;
 }
 
-h1{
+img {
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: Biotif-Regular;
+  text-align: left;
+}
+
+h3 {
   color: #DFD3C3;
-  font-style: oblique;
+  font-family: serif;
+  font-size: 30px;
+  text-align: center;
 }
 
-h3{
+/*****CLASS SELECTORS***********/
+.heading {
   color: #DFD3C3;
+  font-size: 50px;
+  display: inline-block;
+  width: 700px;
+}
+
+.logo {
+  border-radius: 50%;
 }
