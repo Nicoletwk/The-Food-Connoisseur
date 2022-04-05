@@ -1,40 +1,152 @@
-/*******TAG SELECTORS*****/
+
 body {
-  background-color: #FBF8F1;
-  font-family: sans-serif;
-  color: #CDB699;
-}
-
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: #EEEEEE;
-  border-width: 5px;
-  width: 10%;
-}
-
-img {
-  border-radius: 50%;
-}
-
-h1 {
-  font-family: Biotif-Regular;
-  text-align: left;
-}
-
-h3 {
-  color: #DFD3C3;
-  font-family: serif;
-  font-size: 30px;
+  background-color: #fffaf4;
+  font-family: "Noto Serif Display", serif;
+  color: #606060;
   text-align: center;
 }
 
-/*****CLASS SELECTORS***********/
-.heading {
-  color: #DFD3C3;
-  font-size: 50px;
-  display: inline-block;
-  width: 700px;
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+h4 {
+  font-size: 0.7rem;
+  font-weight: lighter;
+}
+
+.container-fluid {
+  padding: 5% 5%;
+}
+
+.navbar {
+    padding: 5% 0 0;
+    font-size: 1rem;
+}
+
+.nav-item {
+  padding: 0 5rem;
 }
 
 
+
+
+#title img{
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+.explore {
+justify-content: center;
+padding: 5%;
+background-color: #fcf5eb;
+}
+
+.explore-more {
+  background-color: #fcf5eb;
+}
+.explore-more a {
+  color: #606060;
+ text-decoration: none;
+}
+
+.explore-more a:hover {
+  color: #d9d9d9;
+}
+
+#explore-section img{
+  float: left;
+  width: 25%;
+  margin-left: 10%;
+  display: inline-block;
+}
+
+.explore-text{
+  text-align: left;
+  padding: 0 10%;
+  width: 50%;
+  display: inline-block;
+  line-height: 2.5rem;
+}
+
+.explore-more {
+  padding: 5% 0 0;
+}
+
+#carousel {
+  background-color: #fcf5eb;
+}
+#carousel .carousel-caption {
+  position: absolute;
+  margin: auto;
+  transform: translateY(-50%);
+  justify-content: center;
+}
+
+.carousel-caption h1{
+  font-size: 300%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+
+#carousel .btn: hover {
+  background-color: #fffaf4;
+}
+
+#carousel img {
+max-width: 80%;
+max-height: 20%;
+margin: auto;
+}
+
+
+
+#footer .container-fluid {
+  padding: 5%;
+  text-align: center;
+}
+
+#footer i {
+padding: 3%;
+font-size: 2rem;
+}
+
+#footer i {
+  color: #606060;
+}
+
+#footer i:hover  {
+  color: #f8f0de;
+}
+
+
+
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
